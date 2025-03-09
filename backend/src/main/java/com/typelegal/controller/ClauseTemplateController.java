@@ -21,7 +21,7 @@ public class ClauseTemplateController {
     @Autowired
     private ClauseTemplateService clauseTemplateService;
 
-    // 🔥 모든 데이터 가져오기 (findAll)
+    // 모든 데이터 가져오기 (findAll)
     @GetMapping("/all")
     public List<ClauseTemplate> getAllClauseTemplates() {
         System.out.println("adad");
