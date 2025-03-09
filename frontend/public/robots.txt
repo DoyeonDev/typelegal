@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Disallow: /sidepanel
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.typelegal.io
+
+# Sitemaps
+Sitemap: https://www.typelegal.io/sitemap.xml
+Sitemap: https://www.typelegal.io/server-sitemap.xml

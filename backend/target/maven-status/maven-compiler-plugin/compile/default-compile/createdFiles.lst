@@ -1,0 +1,7 @@
+com/typelegal/BackendApplication.class
+com/typelegal/service/ClauseTemplateService.class
+com/typelegal/repository/ClauseTemplateRepository.class
+com/typelegal/model/ClauseTemplate.class
+com/typelegal/config/SecurityConfig.class
+com/typelegal/App.class
+com/typelegal/controller/ClauseTemplateController.class
