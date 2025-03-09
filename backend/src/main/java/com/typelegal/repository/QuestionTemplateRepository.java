@@ -16,19 +16,10 @@ public interface QuestionTemplateRepository extends JpaRepository<QuestionTempla
         // @Query("SELECT * FROM ClauseTemplate")
         List<QuestionTemplate> findAll(); // 모든 데이터 가져오기
 
-        // @Query("SELECT q FROM QuestionTemplate q " + "WHERE q.cid = :query1 "
-        // + "OR q.cid LIKE %:query1% " + "OR q.cid LIKE %:query2 "
-        // + "ORDER BY q.midx ASC, q.qidx ASC")
+
         @Query("SELECT q FROM QuestionTemplate q " + "WHERE q.cid = :query1 "
                         + "OR (q.cid LIKE CONCAT(:query1, '_%') AND q.cid LIKE CONCAT('%_', :query2)) "
                         + "ORDER BY q.midx ASC, q.qidx ASC")
         List<QuestionTemplate> findByCustomConditions(@Param("query1") String query1,
                         @Param("query2") String query2);
 }
-
-// @Query("SELECT q FROM QuestionTemplate q " +
-// "WHERE q.cid = :query1 " +
-// "OR (:query2 IS NOT NULL AND :query2 <> '' " +
-// " AND q.cid LIKE CONCAT(:query1, '_%') " +
-// " AND q.cid LIKE CONCAT('%_', :query2)) " +
-// "ORDER BY q.midx ASC, q.qidx ASC")
