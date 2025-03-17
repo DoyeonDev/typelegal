@@ -7,7 +7,7 @@
 
 ## 🌍 배포 주소
 🔗 [www.typelegal.io](https://www.typelegal.io)
-
+체험아이디: test@typelegal.io (pw: test12345!)
 ---
 
 ## 📂 프로젝트 구조
