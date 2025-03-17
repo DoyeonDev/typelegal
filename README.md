@@ -6,8 +6,8 @@
 현재 웹사이트에서는 **프리랜서 계약서**를 작성해볼 수 있습니다.
 
 ## 🌍 배포 주소
-🔗 [www.typelegal.io](https://www.typelegal.io)
-체험아이디: test@typelegal.io (pw: test12345!)
+🔗 [www.typelegal.io](https://www.typelegal.io) (체험 id: test@typelegal.io / pw: test12345!)
+
 ---
 
 ## 📂 프로젝트 구조
